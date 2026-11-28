@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETRA-ROBOT MONITORING SYSTEM</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header class="tophead">
+        <!-- Designing Logo for the page -->
+        <div class="logo">
+            <div class="brand-logo">N</div>
+            <div>
+                <h1>NETRA</h1>
+                <p>ROBOT MISSION CONTROL</p>
+            </div>
+        </div>
+<!-- providing navigation menu items -->
+        <nav>
+            <a href="#">Dashboard</a>
+            <a href="#">Fleet</a>
+            <a href="#">Telemetry</a>
+            <a href="#">Alerts</a>
+
+        </nav>
+
+<!-- System online content and clock placement -->
+        <div class="system-dot">
+            <span class="dot"></span>
+            <span>System Online</span>
+            <strong id="clock">--:--:--</strong>
+
+        </div>
+        <button id="dispath-open" type="button">+Dispatch Mission</button>
+
+    </header>
+    <main class="page">
+            <section class="kpi-grid">
+                    <article class="kpi-card">
+                            <span>ROVERS ONLINE</span>
+                            <h2 id=>6/6</h2>
+                            <p>ACTIVE ROVERS UNITS</p>
+
+                    </article>
+
+                     <article class="kpi-card">
+                            <span>AVERAGE BATTERY</span>
+                            <h2 id="battery level">73%</h2>
+                            <p>FLEET BATTERY LEVEL</p>
+
+                    </article>
+
+                     <article class="kpi-card">
+                            <span>OPEN ALERTS</span>
+                            <h2 id="aler-count"> 2  </h2>
+                            <p>REQUIRES ATTENTION </p>
+
+                    </article>
+
+                     <article class="kpi-card">
+                            <span>DISTANCE TODAY</span>
+                            <h2 id="diatance covered">13.8KM</h2>
+                            <p>TOTAL SIMULATED DISTANCE </p>
+
+                    </article>
+            </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+    
